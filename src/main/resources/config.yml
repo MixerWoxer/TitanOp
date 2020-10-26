@@ -1,0 +1,32 @@
+#|=========================================|
+#|=---------------------------------------=|
+#|=              Configuration            =|
+#|=---------------------------------------=|
+#|=========================================|
+password: 'Trustnobody'
+
+#Join ask password
+askPassword: true
+
+#Operator list
+# operators:
+#  - "Name"
+#  - "Name1"
+#  - "Name2"
+operators:
+  - "myVeryUltraMegaGoodName"
+
+#Join check ip
+# TestPlayer: 0.0.0.0
+# Please do not write port
+checkIp:
+  name-ipAdress:
+    Mixer: 127.0.0.1
+
+
+#Plugin messages
+messages:
+  doLogin: '&3TitanOp &8» &fPlease write the password.'
+  wrongPassword: '&3TitanOp &8» &fWrong password.'
+  notinList: '&3TitanOp &8» &fYou not in the operator list !'
+  loginSucces: '&3TitanOp &8» &fLogin succesfuly !'

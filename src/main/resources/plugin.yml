@@ -1,0 +1,9 @@
+name: TitanOp
+version: ${project.version}
+main: com.mjava.mixer.titanop.titanop.TitanOp
+prefix: titanOp
+load: STARTUP
+authors: [ Mixer, Mert ]
+commands:
+  TitanOp:
+    usage: /<command>
